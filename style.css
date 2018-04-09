@@ -1,0 +1,59 @@
+.topdiv {
+    
+    height: 175px;
+    
+    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(trees.jpg);
+    
+    
+}
+
+.secdiv {
+        height:500px;
+        background-color: white;
+    font-family: 'Shadows Into Light', cursive;
+       
+/*        background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(got.jpg);*/
+}
+
+.wrapper {
+    text-align: center;
+    background-color: pink;
+}
+
+.button {
+    position: absolute;
+    background-color: #fff;
+    top: 35%;
+    width: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: blue;
+    background: none;
+    border: none;
+/*    font-family: 'Bitter', serif;*/
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    transition: background-color 0.3s, color 0.3s;
+} 
+
+.bottom{
+/*     background-color: pink;*/
+    height: 200px;
+    left:200px;
+    right:200px;
+    position: absolute;
+    top: 60%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Shadows Into Light', cursive;
+    font-family:sans-serif;
+    
+    
+
+    
+}
